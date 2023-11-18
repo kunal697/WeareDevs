@@ -1,0 +1,227 @@
+.main {
+    min-height: 100vh;
+     background-color: rgb(242, 232, 232);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .navbar h1 {
+    margin-left: 70px;
+   color: rgb(19, 18, 18);
+  font-family: 'Courier New', monospace;
+  display: inline;
+  margin-right: 40%;
+}
+
+.navbar h3 {
+    display: inline;
+    text-align: right;
+    margin-right: 20px;
+    text-decoration: underline  blueviolet ;
+       color: rgb(40, 39, 39);
+}
+
+.navbar h3:hover{
+    cursor : pointer;
+    text-decoration: none;
+     text-decoration-color: #5942e9;
+    background-color:#5942e9;
+    border-radius: 5px; 
+
+     
+}
+
+.home {
+    margin-top: 200px;
+    text-align: center;
+    color: rgb(30, 29, 29);
+}
+
+.home > h2 {
+    text-align: center;
+    margin: 0 auto;  
+    max-width: 800px;  
+}
+
+.home > h1 {
+    font-size: 5rem;
+ }
+
+.change {
+    color: rgb(13, 164, 245);
+    font-style: oblique;
+}
+
+.button {
+    background: #5942e9;
+    margin-top: 50px;
+    color: white;
+    border: none;  
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-family: 'American Typewriter', serif;
+     
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color:grey;
+}
+
+#about-us {
+    background-color: #d9d4f8;
+    padding-bottom: 200px;
+    font-size: 25px;
+}
+
+.image-and-text-container img {
+    width: 300px;
+    float: left;
+}
+
+#course {
+    color: rgb(46, 45, 44);
+    clear: both;  
+    background-color: rgb(246, 239, 239);
+    padding-bottom:  200px;
+    font-size: 25px;
+ }
+
+ 
+ .course-box p{
+    font-size: 60%;
+    text-align: justify;
+    margin: 10px;
+    color: bisque;
+ }
+
+.course-box{
+     background-color: #282829;
+    border-radius: 20px;
+       text-align: center;
+     
+      margin: 50px;
+  }
+.course-box h4{
+     padding-top: 20px;
+    margin: 10px auto;
+   padding-bottom: 10px;
+    font-size: 100%; 
+    color: rgb(223, 234, 21)
+}
+ .all-course button{
+    border-radius: 5px;
+    border-color: white;
+    width: 100px;
+    height: 25px;
+    margin: 10px;
+    color: rgb(11, 242, 11);
+     font-weight: 900;
+     background-color: rgb(63, 54, 54);
+ }
+ .all-course button:hover{
+    cursor: pointer;
+    background-color: darkgray;
+
+ }
+ .course-container img{
+    background-color: black;
+    width: 300px;
+    float: right;    
+}
+.all-course img{
+    padding: 10% auto; 
+      width: 90%;
+ }
+.foot{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    clear: both;
+    background-color: cornflowerblue;
+    
+}
+@media only screen and (min-width: 768px) {
+    .all-course{
+        display: grid;
+       grid-template-columns: repeat(3,1fr);
+       gap: 30px;
+        margin: 50px;
+   
+    }
+    .foot{
+        display: flex;
+    }
+    .mail-but{
+        background-color:#5942e9;
+        width: 50%;
+        height: 30px;
+        font-size: 20%;
+        border-radius: 5px;
+        border: 10px;
+        margin: 10px auto;
+    
+     }
+}
+
+@media only screen and (max-width: 767px) {
+       
+    .foot{
+        margin-top: 10px;
+      } 
+      .mail-but{
+        background-color:#5942e9;
+        width: 100px;
+        height: 30px;
+        font-size: 20%;
+        border-radius: 5px;
+        border: 10px;
+        margin: 10px auto;
+        font-size: 16px;
+    
+     }
+
+}
+.foot a{
+    margin-left: 40px;
+     font-size: 20px;
+}
+.organization a{
+    
+    margin-left: 50%;
+    display: block;
+ }
+ .social a{
+    margin-left: 50%;
+  }
+
+.letterbox{
+    margin-left: 20%;
+ }
+
+ .mail{
+     text-align: center;
+    border-radius: 10px;
+     margin-top: 10px;
+    height: 30px;
+    background-color: white;
+    font-size: 15px;
+ }
+
+ label{
+     color:orange;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ 
+  .mail-but:hover{
+    cursor:pointer;
+    background-color: darkslateblue;
+  }
+ 
+
+
